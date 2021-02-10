@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background: url(beach_pic.jpg);
+  background-repeat: none;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
+  background: #fff;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  color: #5a675e;
+  text-decoration: none;
+  padding: 10px 1.5rem;
+}
+
+.butt {
+  color: #fff;
+  background: #3abee6;
+  border: none;
+  outline: none;
+  padding: 23px 32px;
+  margin-right: 13px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.findBox h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.findBox {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 1050px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 20px;
+  width: 370px;
+  margin-left: -5px;
+  margin-top: 10px;
+  padding-left: 45px;
+}
+
+.loca {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.submit {
+  padding: 20px;
+  width: 100px;
+  margin-left: -4px;
+  margin-top: 10px;
+  background: rgba(255, 136, 0, 0.897);
+  color: #fff;
+  cursor: pointer;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.mainbox {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main3 {
+  background: #fff;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.box1 {
+  width: 350px;
+}
+
+.h2 {
+  padding: 5px;
+  color: #242442;
+  padding-top: 35px;
+}
+
+.h4 {
+  color: #5a675e;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.p {
+  color: #5a675e;
+  background: rgba(218, 215, 211, 0.438);
+  display: inline;
+  padding: 7px 12px;
+  border-radius: 50px;
+}
